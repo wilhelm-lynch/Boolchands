@@ -1,0 +1,285 @@
+.navbar
+{
+	opacity: 0.7;
+	background-color: #000000;
+}
+
+.navbar .nav-link.apple-logo
+{
+	font-size: 20px;
+	line-height: 0px;
+}
+
+.navbar .nav-link
+{
+	color: #fff;
+	font-size: 13px;
+}
+
+body
+{
+	padding-top: 50px;
+}
+
+.product
+{
+	padding-top: 50px;
+	text-align: center;
+	margin-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+@media (min-width: 576px)
+{
+	.product
+	{
+		padding-top: 100px;
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+/********** Small and Medium devices **********/
+
+@media only screen and (max-width: 576px)
+{
+	.product.iphone-x h1 { 
+		font-size: 30px; font-weight: bold; 
+		}
+}
+
+@media only screen and (max-width: 576px)
+{
+	.product.iphone-x h2 { 
+		font-size: 17px; font-weight: 400; 
+		}
+}
+
+@media only screen and (max-width: 576px)
+{
+	.iphone-x .links a {
+		font-size: 12px; font-weight: 400;
+	}
+}
+
+@media only screen and (max-width: 576px)
+{
+	.product.ipad h1
+	{
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 576px)
+{
+	.product.ipad h2 { 
+		font-size: 17px; font-weight: 400;
+		}
+}
+
+@media only screen and (max-width: 576px)
+{
+	.ipad .links a {
+		font-size: 12px; font-weight: 400;
+	}
+}
+
+@media only screen and (max-width: 576px)
+{
+	.product.macbook-pro h1 { 
+		font-size: 30px; font-weight: bold; 
+		}
+}
+
+@media only screen and (max-width: 576px)
+{
+	.product.macbook-pro h2 { 
+		font-size: 17px; font-weight: 400; 
+		}
+}
+
+@media only screen and (max-width: 576px)
+{
+	.macbook-pro .links a {
+		font-size: 12px; font-weight: 400;
+	}
+}
+
+@media only screen and (max-width: 576px)
+{
+	.product-small.shoot h3
+	{
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 576px)
+{
+	.product-small.shoot h4
+	{
+		font-size: 20px;
+	}
+}
+/**********************************************/
+
+.product.iphone-x
+{
+	background-color: #fafafa;
+}
+
+.iphone-x h1{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.iphone-x h2{
+	font-size: 27px;
+	font-weight: 400;
+}
+
+.product .links
+{
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.product .links .learn-more
+{
+	padding-right: 10px;
+}
+
+.ipad h1{
+	font-size: 56px;
+	font-weight: bold;
+}
+
+.ipad-x h2{
+	font-size: 27px;
+	font-weight: 400;
+}
+
+.product.ipad
+{
+	background-color: #f5f5f5;
+}
+
+.product.macbook-pro
+{
+	background-color: #131218;
+}
+
+.product.dark{
+	color: #ffffff;
+}
+
+.product.dark a{
+	color: #ffffff;
+}
+
+.product-small
+{
+	height: 550px;
+	padding-top: 10px;
+	margin: 0 0 10px 10px;
+	text-align: center;
+}
+
+.product-small h3{
+	padding-top: 30px;
+}
+
+.product-small h3{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.product-small h4{
+	font-size: 19px;
+	font-weight: 400;
+}
+
+.products-grid
+{
+	padding-right: 10px;
+}
+
+.product-small.college
+{
+	background: url("../img/shop_for_college_large.jpg") center no-repeat;
+}
+
+.product-small .links
+{
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.product-small .links .learn-more
+{
+	padding-right: 10px;
+}
+
+.product-small .links.small-link-margin
+{
+	margin-bottom: 17px;
+}
+
+.product-small.behind-the-mac
+{
+	background: url("../img/behind_the_mac_boniface_large.jpg") center no-repeat;
+}
+
+.behind-the-mac.dark
+{
+	color: #ffff;
+}
+
+.behind-the-mac.dark a
+{
+	color: #ffff;
+}
+
+.behind-the-mac h3{
+	padding-top: 425px;
+}
+
+.product-small.iphone-8
+{
+	background-color: #f9f0eb;
+}
+
+.product-small.shoot
+{
+	background: url("../img/how_to_shoot_large.jpg") no-repeat center;
+}
+
+.shoot.dark{
+	color: #ffff;
+}
+
+.product-small.air-pods
+{
+	background-color: #fafafa;
+}
+
+.apple-watch h5{
+	color: red;
+	font-weight: 400;
+}
+
+.product-small.apple-watch
+{
+	background-color: #eeeeee;
+}
+
+.page-footer.font-small
+{
+	background-color: #000000;
+}
+
+.page-footer .top-footer
+{
+	background-color: #757575;
+	opacity: 0.9;
+}
